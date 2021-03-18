@@ -33,13 +33,13 @@ var Vehicle = /** @class */ (function () {
         console.table(array);
     }
     Vehicle.prototype.showMessage = function () {
-        return "<p>" + this.fName + "</p>\n            <p>" + this.lName + "</p>\n            <img src=\"" + this.img + "\">";
+        return "<p>" + this.vType + "</p>\n            <p>" + this.model + "</p>\n            <p>" + this.vAge + "</p>\n            <img src=\"" + this.vImg + "\">";
     };
     return Vehicle;
 }());
-newVehicle("Ghiath", "Serri", "https://cdn.pixabay.com/photo/2021/03/11/10/32/leaves-6086723_960_720.jpg");
-newVehicle("Theo", "patkos", "https://cdn.pixabay.com/photo/2021/03/11/10/32/leaves-6086723_960_720.jpg");
-newVehicle("Acilio", "carraro", "https://cdn.pixabay.com/photo/2021/03/11/10/32/leaves-6086723_960_720.jpg");
+newVehicle("Ghiath", "Serri", "https://pixabay.com/vectors/volkswagen-car-bus-mobile-home-158463/");
+newVehicle("Theo", "patkos", "https://pixabay.com/illustrations/car-vehicle-sports-car-racing-car-49278/");
+newVehicle("Acilio", "carraro", "https://pixabay.com/photos/car-audi-vehicle-oldtimer-f9-ddr-1661767/");
 var Motorbikes = /** @class */ (function (_super) {
     __extends(Motorbikes, _super);
     function Motorbikes(a, b, c, x) {
